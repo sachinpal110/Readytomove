@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> form </title>
+</head>
+<body>
+    <h2>Enqury</h2>
+    <form>
+        <fieldset>
+            <legend>Enquary</legend>
+        Name: <input type="text" name="name" value="" placeholder="please enter your name here"... />
+        <br/>
+        <br/>
+        Address: <textarea name="address"></textarea>
+            <br/>
+            <br/>
+            Gender:
+            <input type="radio" values="m" name="gender"/> male
+            <input type="radio" values="f" name="gender"/> female
+            <input type="radio" values="o" name="gender"/> other
+            <br/>
+            <br/>
+            <select>
+            <option>please select a country</option>
+            <optgroup label="ASIA">
+            <option value="india">India</option></option>>
+            <option value="New delhi">New delhi</option></option> 
+            </optgroup>
+            <option values="usa">USA</option>
+            </select>
+            <hr/>
+            <br/>
+            hobbies:
+            <input type="checkbox" name="hobbies[]"> Dancing
+            <input type="checkbox" name="hobbies[]"> singing
+            <input type="checkbox" name="hobbies[]"> painting
+            <br/>
+            <br/>
+
+
+            <input type="submit" value="send"/>
+            <input type="reset" value="reset"/>
+        </form>
+</body>
+</html>
